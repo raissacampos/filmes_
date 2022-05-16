@@ -1,0 +1,16 @@
+.gif {
+    text-align: center;
+    padding: 15px;
+}
+
+img{
+    width: 1280px;
+}
+
+.colunas{
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+    width: 1280px;
+    margin: 30px;
+}
