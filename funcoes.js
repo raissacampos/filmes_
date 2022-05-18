@@ -7,3 +7,10 @@ function trocaimagem() {
 document.querySelector('.gif img'). src = imagens[imagematual];
 }
 setInterval(trocaimagem, 1500);
+
+$(document).ready(function() {
+	$('#subir').click(function(){
+		$('html, body').animate({scrollTop:0}, 'slow');
+		return false;
+	});
+});
